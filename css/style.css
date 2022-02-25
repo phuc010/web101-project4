@@ -1,0 +1,174 @@
+.header{
+    max-width: 100%;
+    margin: auto;
+    background-image: linear-gradient( #034e76, #6bbeda);
+}
+a{
+    text-decoration: none !important;
+}
+div.nav{
+    width: 1260px;
+    margin: auto;
+    display: flex;
+    align-items: center;  
+}
+
+
+a.logo-item{
+    padding: 0 50px !important;
+    font-size: xx-large;
+    color: #f0ec0c !important;
+    font-family: 'Playball', cursive;
+}
+ul{
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none;
+}
+.linkhead{
+    color: white;
+}
+.main-t{
+    background-image: url('../img/bghome.jpg');
+    padding:20px ;
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+}
+.main{
+    padding: 40px 20px ;
+    max-width: 1260px;
+    margin: auto;
+}
+.container1{
+    text-align: center;
+    max-width: 1260px;
+    margin: auto;
+}
+.container1 h1{
+    font-size: 40px;
+    background: RGB(155, 182, 222, 0.5)
+}
+.container1 a{
+    font-size: 50px;
+}
+.container2{
+    max-width: 1260px;
+    margin: auto;
+    padding-top: 50px;
+}
+.container2 img, .container2 a{
+    max-width: 100%;
+    height: auto;
+}
+.container2 a{
+    font-size: 30px;
+    color: black;
+}
+.maindiadiem, .mainamthuc, .mainkhacsan{
+    display: flex;
+    justify-content: center;
+}
+.container2 a{
+    text-align: center;
+    background: RGB(217, 216, 242, 0.5)
+}
+
+.footer{
+    max-width: 100%;
+    margin: auto;
+    background-color: #3c3932;
+    
+}
+div.footerwidth{
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+
+.footertext1 p, .footertext h3, .footertext3 p{
+    margin: 0 !important;
+    color: white;
+}
+.footertext h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footertext3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.fa {
+    padding: 10px 10px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+
+}
+/*-----------------------*/
+@media only screen and (min-width: 992px) {
+.header, div.nav{
+    height: 50px;
+}
+.nav-item{
+    padding: 0 20px;
+}
+/* .banner{
+    background: url('../img/banner.jpg');
+    height: 500px;
+    width: 100%;
+    max-width: 1260px;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+} */
+}
+/*-----------------------*/
+@media only screen and (min-width: 768px) and (max-width:991px) {
+.header, div.nav{
+    height: 70px;
+}
+.nav-item{
+    padding: 0 20px;
+}
+}
+
+/*-----------------------*/
+@media (max-width:767px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+.header, div.nav{
+    height: 100px;
+}
+.logo{
+    display: flex;
+    text-align: center;
+}
+.logo-item{
+    margin: auto !important;
+}
+.nav-item{
+    padding: 0 10px;
+}
+.container1 h1, .container1 a{
+    font-size: xx-large !important;
+}
+p.follow, span.adress{
+    display: none;
+}
+}
