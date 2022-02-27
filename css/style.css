@@ -53,16 +53,16 @@ ul{
 .container1 a{
     font-size: 50px;
 }
-.container2{
+.main .container{
     max-width: 1260px;
     margin: auto;
     padding-top: 50px;
 }
-.container2 img, .container2 a{
+.main .container img, .main .container a{
     max-width: 100%;
     height: auto;
 }
-.container2 a{
+.main .container a{
     font-size: 30px;
     color: black;
 }
@@ -70,7 +70,7 @@ ul{
     display: flex;
     justify-content: center;
 }
-.container2 a{
+.main .container a{
     text-align: center;
     background: RGB(217, 216, 242, 0.5)
 }
@@ -127,15 +127,6 @@ div.footerwidth{
 .nav-item{
     padding: 0 20px;
 }
-/* .banner{
-    background: url('../img/banner.jpg');
-    height: 500px;
-    width: 100%;
-    max-width: 1260px;
-    margin: auto;
-    background-size: cover;
-    position: relative;
-} */
 }
 /*-----------------------*/
 @media only screen and (min-width: 768px) and (max-width:991px) {
